@@ -1,0 +1,46 @@
+/*
+    animation and effects
+*/
+
+@media screen and (min-width: 800px) {
+    .desktop_nav>ul >li >a:hover {
+        color: #2C2640;
+    }
+
+    .desktop_nav >ul >li:last-child{
+        border: none;
+    }
+
+    .desktop_nav >ul >li:last-child >a{
+        border: solid 2.5px #2C2640;
+        padding: 4px 15px;
+        color: #2C2640;
+        transition-duration: .3s;
+    }
+
+    .desktop_nav >ul >li:last-child >a:hover {
+        color: #fff;
+        background-color: #2C2640;
+    }
+
+    .infos_items > button {
+        transition-duration: .5s;
+    }
+
+    .infos_items > button:hover {
+        background-color: #F0F0F0;
+        color: #2C2640;
+        border-color: #BEBEBE;
+    }
+
+    .items >button {
+        transition-duration: .5s;
+    }
+
+    .items >button:hover {
+        background-color: #F0F0F0;
+        color: #2C2640;
+        border-color: #BEBEBE;
+    }
+    
+}
